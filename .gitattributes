@@ -1,2 +1,9 @@
-source/*.c linguist-vendored=false
-source/*.h linguist-vendored=false
+source/**/*.c linguist-vendored=false
+source/**/*.h linguist-vendored=false
+*.h linguist-language=C
+
+# Виключаємо сторонні бібліотеки та стартап-файли (замініть назви папок на ваші)
+source/Drivers/** linguist-vendored=true
+source/CMSIS/** linguist-vendored=true
+*.s linguist-vendored=true
+*.S linguist-vendored=true
