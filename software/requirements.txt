@@ -1,0 +1,5 @@
+pyocd>=0.36
+esptool>=4.7,<5
+pyserial>=3.5
+intelhex>=2.3
+pyelftools>=0.29
