@@ -1,3 +1,2 @@
-src/*.c linguist-vendored=false
-src/*.h linguist-vendored=false
-*.h linguist-language=C
+source/*.c linguist-vendored=false
+source/*.h linguist-vendored=false
